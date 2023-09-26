@@ -1,0 +1,71 @@
+<div class="campos_usuario">
+    <input type="text" class="campo" placeholder="Nome do usuário">
+    <input type="text" class="campo" placeholder="E-mail">
+    <input type="text" class="campo" placeholder="Senha">
+    <input type="text" class="campo" placeholder="WhatsApp">
+    <input type="text" class="campo" placeholder="Twitter">
+    <input type="text" class="campo" placeholder="Instagram">
+</div>
+<div class="campos_musica">
+    <input type="text" class="campo" placeholder="Título da Música">
+    <input type="text" class="campo" placeholder="Duração">
+    <input type="text" class="campo" placeholder="Artista">
+    <input type="text" class="campo" placeholder="Álbum">
+</div>
+<div class="campos_artista">
+    <input type="text" class="campo" placeholder="Nome do Artista">
+    <input type="text" class="campo" placeholder="Gênero Musical">
+</div>
+<div class="campos_plataforma-de-stream">
+    <input type="text" class="campo" placeholder="Nome da Plataforma de Stream">
+</div>
+<div class="campos_genero-musical">
+    <input type="text" class="campo" placeholder="Gênero musical">
+</div>
+<div class="campos_album">
+    <input type="text" class="campo" placeholder="Título do Álbum">
+    <input type="text" class="campo" placeholder="Ano de lançamento">
+    <input type="text" class="campo" placeholder="Nome do Artista">
+</div>
+<div class="campos_estatisticas-de-uso">
+    <input type="text" class="campo" placeholder="Número de Reproduções">
+    <input type="text" class="campo" placeholder="Tempo total de uso">
+    <input type="text" class="campo" placeholder="Nome do Usuário">
+    <input type="text" class="campo" placeholder="Nome da Plataforma de Stream">
+</div>
+<div class="campos_historico-de-reproducao">
+    <input type="text" class="campo" placeholder="Data e Hora">
+    <input type="text" class="campo" placeholder="Nome do Usuário">
+    <input type="text" class="campo" placeholder="Título da Música">
+</div>
+<div class="campos_playlist">
+    <input type="text" class="campo" placeholder="Título da Playlist">
+    <input type="text" class="campo" placeholder="Descrição">
+    <input type="text" class="campo" placeholder="Título da Música">
+    <input type="text" class="campo" placeholder="Título da Música">
+</div>
+<div class="campos_conexoes">
+    <input type="text" class="campo" placeholder="Nome do Amigo">
+    <input type="text" class="campo" placeholder="Nome do Usuário">
+</div>
+<div class="campos_comentarios">
+    <input type="text" class="campo" placeholder="Comentário">
+    <input type="text" class="campo" placeholder="Data e Hora">
+    <input type="text" class="campo" placeholder="Nome do Usuário">
+</div>
+<div class="campos_colaboracoes">
+    <input type="text" class="campo" placeholder="Informações">
+    <input type="text" class="campo" placeholder="Nome do Artista">
+    <input type="text" class="campo" placeholder="Título da Música">
+</div>
+<div class="campos_anunciantes">
+    <input type="text" class="campo" placeholder="Endereço">
+    <input type="text" class="campo" placeholder="Contrato">
+    <input type="text" class="campo" placeholder="Nome do usuario">
+</div>
+<div class="campos_anuncios">
+    <input type="text" class="campo" placeholder="Mídia">
+    <input type="text" class="campo" placeholder="Número de Visualizações">
+    <input type="text" class="campo" placeholder="CNPJ">
+    <input type="text" class="campo" placeholder="Nome do usuario">
+</div>
