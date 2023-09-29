@@ -1,10 +1,7 @@
 @import './abstract/base';
 @import './abstract/reset';
-@import './components/cabecalho';
-@import './components/principal-01';
-@import './components/principal-02';
-@import './components/insert';
-@import './components/delete';
-@import './components/update';
-@import './components/read';
-@import './components/rodape';
+@import './main-components/cabecalho';
+@import './main-components/principal-01';
+@import './main-components/principal-02';
+@import './main-components/rodape';
+@import './crud-components/crud';

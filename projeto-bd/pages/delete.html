@@ -6,6 +6,9 @@
         <title>delete.Q</title>
         <link rel="stylesheet" href="../styles/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="icon" href="../assets/assets-icons/delete-icon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../assets/assets-icons/delete-icon.png" type="image/x-icon">
+
     </head>
     <body>
         <header class="cabecalho">
@@ -13,11 +16,11 @@
                 home
             </a>
             <div class="botoes_grupo">
-                <a href="./page1.html" title="Voltar" class="material-symbols-rounded">
+                <a href="./delete.html" title="Voltar" class="material-symbols-rounded">
                     arrow_back
                 </a>
-                <a title="Perfil" class="material-symbols-rounded">
-                    person
+                <a href="./page1.html" title="Menu Crud" class="imagem-menu">
+                    <img src="../assets/assets-icons/crud-icon.png" alt="Ícone de Crud" class="imagem">
                 </a>
             </div>
         </header>
@@ -27,29 +30,26 @@
                     d<strong class="titulo_destaque2">elete</strong>
                 </h1>
                 <p class="bloco_subtitulo">
-                    Escolha onde deseja
+                    Escolha a sua
                     <strong class="subtitulo_alt">
-                        deletar
+                        ação
                     </strong>
-                     informações e em seguida preencha os campos
                 </p>
             </div>
+            <div class="bloco_opcoes">
+                <button class="botao-opcao">
+                    Deletar tabela
+                </button>
+                <button class="botao-opcao">
+                    Detetar elementos específicos
+                </button>
+            </div>
             <select id="tabelas" class="bloco_tabelas" name="tabelas">
-                <option class="opcao" value="0">Selecione uma opção</option>
+                <option class="opcao" value="0">Selecione uma tabela</option>
                 <option class="opcao" value="usuario">Usuário</option>
                 <option class="opcao" value="musica">Música</option>
                 <option class="opcao" value="artista">Artista</option>
-                <option class="opcao" value="plataforma-de-stream">Plataforma de Stream</option>
-                <option class="opcao" value="genero-musical">Gênero musical</option>
                 <option class="opcao" value="album">Álbum</option>
-                <option class="opcao" value="estatisticas-de-uso">Estatísticas de usuário</option>
-                <option class="opcao" value="historico-de-reproducao">Histórico de reprodução</option>
-                <option class="opcao" value="playlist">Playlist</option>
-                <option class="opcao" value="conexoes">Conexões</option>
-                <option class="opcao" value="comentarios">Comentários</option>
-                <option class="opcao" value="colaboracoes">Colaborações</option>
-                <option class="opcao" value="anunciantes">Anunciantes</option>
-                <option class="opcao" value="anuncios">Anúncios</option>
             </select>
             <div class="campos_usuario campos">
                 <input type="text" class="campo" placeholder="Nome do usuário">
@@ -69,59 +69,17 @@
                 <input type="text" class="campo" placeholder="Nome do Artista">
                 <input type="text" class="campo" placeholder="Gênero Musical">
             </div>
-            <div class="campos_plataforma-de-stream campos">
-                <input type="text" class="campo" placeholder="Nome da Plataforma de Stream">
-            </div>
-            <div class="campos_genero-musical campos">
-                <input type="text" class="campo" placeholder="Gênero musical">
-            </div>
             <div class="campos_album campos">
                 <input type="text" class="campo" placeholder="Título do Álbum">
-                <input type="text" class="campo" placeholder="Ano de lançamento">
                 <input type="text" class="campo" placeholder="Nome do Artista">
+                <div class="data">
+                    <label for="campo-data" class="data-label">
+                        Data
+                    </label>
+                    <input id="campo-data" type="date" class="campo">
+                </div>
             </div>
-            <div class="campos_estatisticas-de-uso campos">
-                <input type="text" class="campo" placeholder="Número de Reproduções">
-                <input type="text" class="campo" placeholder="Tempo total de uso">
-                <input type="text" class="campo" placeholder="Nome do Usuário">
-                <input type="text" class="campo" placeholder="Nome da Plataforma de Stream">
-            </div>
-            <div class="campos_historico-de-reproducao campos">
-                <input type="text" class="campo" placeholder="Data e Hora">
-                <input type="text" class="campo" placeholder="Nome do Usuário">
-                <input type="text" class="campo" placeholder="Título da Música">
-            </div>
-            <div class="campos_playlist campos">
-                <input type="text" class="campo" placeholder="Título da Playlist">
-                <input type="text" class="campo" placeholder="Descrição">
-                <input type="text" class="campo" placeholder="Título da Música">
-                <input type="text" class="campo" placeholder="Título da Música">
-            </div>
-            <div class="campos_conexoes campos">
-                <input type="text" class="campo" placeholder="Nome do Amigo">
-                <input type="text" class="campo" placeholder="Nome do Usuário">
-            </div>
-            <div class="campos_comentarios campos">
-                <input type="text" class="campo" placeholder="Comentário">
-                <input type="text" class="campo" placeholder="Data e Hora">
-                <input type="text" class="campo" placeholder="Nome do Usuário">
-            </div>
-            <div class="campos_colaboracoes campos">
-                <input type="text" class="campo" placeholder="Informações">
-                <input type="text" class="campo" placeholder="Nome do Artista">
-                <input type="text" class="campo" placeholder="Título da Música">
-            </div>
-            <div class="campos_anunciantes campos">
-                <input type="text" class="campo" placeholder="Endereço">
-                <input type="text" class="campo" placeholder="Contrato">
-                <input type="text" class="campo" placeholder="Nome do usuario">
-            </div>
-            <div class="campos_anuncios campos">
-                <input type="text" class="campo" placeholder="Mídia">
-                <input type="text" class="campo" placeholder="Número de Visualizações">
-                <input type="text" class="campo" placeholder="CNPJ">
-                <input type="text" class="campo" placeholder="Nome do usuario">
-            </div>
+            <button class="campo_botao_enviar">Deletar</button>
         </main>
         <footer class="rodape">
             <p class="rodape_texto">
@@ -136,6 +94,6 @@
                 </a>
             </div>
         </footer>
-        <script src="../javascript/main.js"></script>
+        <script src="../javascript/delete.js"></script>
     </body>
 </html> 

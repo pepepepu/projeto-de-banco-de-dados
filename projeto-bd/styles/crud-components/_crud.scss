@@ -1,0 +1,37 @@
+@import '../abstract/variaveis';
+@import '../abstract/functions';
+
+.principal_insert {
+    @include estilo-padrao($green);
+
+    .opcoes_criacao-tabelas {
+        @include estilo-opcoes-tabela;
+    }
+    .campos {
+        @include estilo-campo-padrao($green);
+    }
+}
+
+.principal_read {
+    @include estilo-padrao($yellow);
+
+    .campos {
+        @include estilo-campo-padrao($yellow);
+    }
+}
+
+.principal_update {
+    @include estilo-padrao($blue);
+
+    .campos {
+        @include estilo-campo-padrao($blue);
+    }
+}
+
+.principal_delete {
+    @include estilo-padrao($pink);
+
+    .campos {
+        @include estilo-campo-padrao($yellow);
+    }
+}
