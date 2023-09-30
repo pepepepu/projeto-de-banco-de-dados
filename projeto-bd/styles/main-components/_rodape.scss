@@ -13,29 +13,36 @@
     background-color: $white;
 
     .rodape_texto {
-        padding: 1.5rem;
         color: $black;
         font-family: $fonte-conteudo;
+        margin: 1.4rem;
         font-size: 13px;
     }
     .rodape_links {
         display: flex;
         flex-direction: row;
         font-size: 15px;
-        padding: 1.5rem;
+        margin: 1.4rem;
+        gap: 25px;
 
         .rodape_link {
-            padding: 1rem;
-            font-family: $fonte-conteudo;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
             text-decoration: none;
-            color: $black;
 
-            font-weight: 800;
-        }
+            .link-imagem {
+                display: none;
+            }
 
-        .rodape_link:hover {
-            color: $green;
-            transition: 0.4s;
+            .link-label {
+                text-align: center;
+                font-size: 13px;
+                font-family: $fonte-conteudo;
+                font-weight: 700;
+                color: $black;
+            }
         }
     }
 }
@@ -43,10 +50,23 @@
 @media screen and (max-width: 767px) {
     .rodape {
         .rodape_texto {
-            font-size: 11px;
+            width: 75%;
+            height: auto;
+            font-size: .8em;
         }
         .rodape_links {
-            font-size: 11px;
+            width: 25%;
+            justify-content: space-evenly;
+            .rodape_link {
+                .link-imagem {
+                    display: flex;
+                    width: 20px;
+                    height: auto;
+                }
+                .link-label {
+                    display: none;
+                }
+            }
         }
     }
 }
